@@ -1,0 +1,17 @@
+# Dependencies for AGI Hackathon Evaluation
+
+# API Clients
+anthropic>=0.40.0
+openai>=1.0.0
+google-generativeai>=0.5.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Optional: Jupyter for notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
