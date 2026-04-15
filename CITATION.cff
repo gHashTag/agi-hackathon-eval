@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+type: dataset
+title: "Trinity Cognitive Probes: A 5-Track Benchmark for Measuring AGI Progress"
+abstract: "Trinity Cognitive Probes is a comprehensive benchmark dataset containing 65,133 multiple-choice questions across 5 cognitive domains: Pattern Learning (THLP), Metacognitive Calibration (TTM), Attention (TAGP), Executive Functions (TEFB), and Social Cognition (TSCP). Designed for the 'Measuring Progress Toward AGI: A Cognitive Framework' hackathon by Google DeepMind and Kaggle."
+authors:
+  - family-names: "Trinity"
+    given-names: "AI"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/gHashTag/t27"
+repository-artifact: "https://github.com/browseros-ai/agi-hackathon"
+url: "https://www.kaggle.com/datasets/playra/trinity-cognitive-probes-thlp-mc"
+date-released: 2025-01-21
+version: "1.0.0"
+license: "CC0-1.0"
+keywords:
+  - artificial general intelligence
+  - cognitive AI
+  - benchmark
+  - machine learning
+  - natural language processing
+  - theory of mind
+  - metacognition
+  - attention
+  - executive function
+  - pattern learning
+  - hackathon
+identifiers:
+  - type: doi
+    value: 10.XXXX/zenodo.XXXXX
+    description: "Dataset DOI"
+dataset:
+  - name: "THLP - Trinity Hippocampal Learning Probe"
+    url: "https://www.kaggle.com/datasets/playra/trinity-cognitive-probes-thlp-mc"
+    size: 19681
+  - name: "TTM - Trinity Metacognition Probe"
+    url: "https://www.kaggle.com/datasets/playra/trinity-cognitive-probes-ttm-mc"
+    size: 4931
+  - name: "TAGP - Trinity Attentional Gateway Probe"
+    url: "https://www.kaggle.com/datasets/playra/trinity-cognitive-probes-tagp-mc"
+    size: 17601
+  - name: "TEFB - Trinity Executive Function Battery"
+    url: "https://www.kaggle.com/datasets/playra/trinity-cognitive-probes-tefb-mc"
+    size: 21081
+  - name: "TSCP - Trinity Social Cognition Probe"
+    url: "https://www.kaggle.com/datasets/playra/trinity-cognitive-probes-tscp-mc"
+    size: 2839

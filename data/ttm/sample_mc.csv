@@ -1,0 +1,6 @@
+id,question_type,question,choices,answer
+TTM_001,mc,"Someone claims: 'A specific coin flip will land heads' with 50% confidence. Is this calibration correct?","A) Yes — 50% is exactly right | B) No — should be lower for true randomness | C) No — should be higher | D) Cannot determine without more information",B
+TTM_002,mc,"After getting 5 predictions wrong in a row, should confidence increase or decrease?","A) Increase — more experience | B) Decrease — pattern of errors | C) Stay the same — independent events | D) Cannot determine",B
+TTM_003,mc,"A model predicts 90% confidence but is only 60% accurate. What is this called?","A) Well calibrated | B) Overconfident | C) Underconfident | D) Random guessing",B
+TTM_004,mc,"When should confidence be highest?","A) When uncertain | B) When well-calibrated | C) When always confident | D) Never",B
+TTM_005,mc,"Metacognitive monitoring involves:","A) Ignoring feedback | B) Tracking own knowledge | C) Always being confident | D) Never changing beliefs",B

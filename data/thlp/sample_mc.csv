@@ -1,0 +1,6 @@
+id,question_type,question,A,B,C,D,answer
+THLP_001,pattern_completion,"The sequence follows the pattern 1, 4, 7, 10, 13, 16. What is the next number?",1,4,7,10,13,16,A
+THLP_002,pattern_completion,"Which pattern is being applied?",repetition,alternating,geometric,random,alternating
+THLP_003,belief_update,"After receiving negative feedback, how does the system adapt?",no_change,reduce_confidence,ask_clarification,change_strategy,ask_clarification
+THLP_004,rule_induction,"What rule can be inferred from examples?",consecutive_numbers,alphabetical,prime_numbers,mod_pattern,consecutive_numbers
+THLP_005,error_correction,"After error detection, what should happen?",ignore_error,adjust_params,report_error,retry_action,report_error

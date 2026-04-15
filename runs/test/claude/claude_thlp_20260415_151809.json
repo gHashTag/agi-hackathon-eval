@@ -1,0 +1,105 @@
+{
+  "model": "claude",
+  "track": "thlp",
+  "timestamp": "20260415_151809",
+  "total_questions": 5,
+  "summary": {
+    "total_questions": 5,
+    "correct": 0,
+    "accuracy": 0.0,
+    "by_track": {
+      "thlp": {
+        "accuracy": 0.0,
+        "count": 5
+      }
+    },
+    "by_type": {
+      "pattern_completion": {
+        "accuracy": 0.0,
+        "count": 2
+      },
+      "belief_update": {
+        "accuracy": 0.0,
+        "count": 1
+      },
+      "error_correction": {
+        "accuracy": 0.0,
+        "count": 1
+      },
+      "rule_induction": {
+        "accuracy": 0.0,
+        "count": 1
+      }
+    },
+    "calibration": {
+      "50-70%": {
+        "accuracy": 0.0,
+        "count": 1,
+        "avg_confidence": 62.0
+      },
+      "70-90%": {
+        "accuracy": 0.0,
+        "count": 3,
+        "avg_confidence": 75.0
+      },
+      "90-100%": {
+        "accuracy": 0.0,
+        "count": 1,
+        "avg_confidence": 90.0
+      }
+    },
+    "avg_response_time_ms": 865.2
+  },
+  "results": [
+    {
+      "question_id": "THLP_001",
+      "track": "thlp",
+      "question_type": "pattern_completion",
+      "predicted": "B",
+      "correct": false,
+      "confidence": 73,
+      "reasoning": "Simulated reasoning for testing",
+      "response_time_ms": 1324
+    },
+    {
+      "question_id": "THLP_002",
+      "track": "thlp",
+      "question_type": "pattern_completion",
+      "predicted": "C",
+      "correct": false,
+      "confidence": 80,
+      "reasoning": "Simulated reasoning for testing",
+      "response_time_ms": 523
+    },
+    {
+      "question_id": "THLP_003",
+      "track": "thlp",
+      "question_type": "belief_update",
+      "predicted": "C",
+      "correct": false,
+      "confidence": 72,
+      "reasoning": "Simulated reasoning for testing",
+      "response_time_ms": 1186
+    },
+    {
+      "question_id": "THLP_004",
+      "track": "thlp",
+      "question_type": "rule_induction",
+      "predicted": "B",
+      "correct": false,
+      "confidence": 62,
+      "reasoning": "Simulated reasoning for testing",
+      "response_time_ms": 685
+    },
+    {
+      "question_id": "THLP_005",
+      "track": "thlp",
+      "question_type": "error_correction",
+      "predicted": "C",
+      "correct": false,
+      "confidence": 90,
+      "reasoning": "Simulated reasoning for testing",
+      "response_time_ms": 608
+    }
+  ]
+}
